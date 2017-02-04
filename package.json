@@ -1,0 +1,26 @@
+{
+  "name": "jsarrays",
+  "version": "1.0.0",
+  "description": "<img src=\"https://devmounta.in/img/logowhiteblue.png\" width=\"250\" align=\"right\">",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcgagnier/JS-Arrays.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcgagnier/JS-Arrays/issues"
+  },
+  "homepage": "https://github.com/mcgagnier/JS-Arrays#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-google": "^0.7.1"
+  }
+}

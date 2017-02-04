@@ -1,16 +1,15 @@
 
 $(document).ready(function() {
-
     // Part One - reveal tweet button and character count and double window size
     $('.tweet-compose').on('click', function() {
         $('#tweet-controls').show();
-        $('.tweet-compose').css('height','5em');
-    })
-    $('#char-count').on('keypress' -1)
+        $('.tweet-compose').css('height', '5em');
+    });
+    $('#char-count').on('keypress' -1);
 
     // Part Two - Character count and tweet button disable
     var count = $('#char-count').html();
-    $('.tweet-compose').on('keyup', function(){
+    $('.tweet-compose').on('keyup', function() {
       var newCount = count - $(this).val().length
       $('#char-count').html(newCount)
 
@@ -24,9 +23,11 @@ $(document).ready(function() {
     });
 
     // Part Three - Submit tweet and put in feed
-    // $('#tweet-submit').on('click', function() {
-    // $('#profile-summary')prepend('#stream')
-    // })
+    $('#tweet-submit').click(function() {
+        var tweet = ('.tweet-compose').html;
+        console.log(tweet);
+        // $('#stream').prepend('.tweet-compose');
+    })
 
 
 
